@@ -4,9 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0202bf2a-3141-4f5f-94b4-a657a62f0a44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,33 +16,8 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="master" />
-  </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -59,144 +31,35 @@
     &quot;accountId&quot;: &quot;1a058147-5e7e-405e-a65d-67d934bc5824&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/out/production/learningnew/comparison.class" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2wZfzx5bIxmImRSG0if5Rv6Me7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Addnumbers.executor": "Run",
-    "Application.Arithmetic.executor": "Run",
-    "Application.BankAccount.executor": "Run",
-    "Application.BankMenuDoWhile.executor": "Run",
-    "Application.CharTypeChecker.executor": "Run",
-    "Application.ConditionalOperator.executor": "Run",
-    "Application.Conversion.executor": "Run",
-    "Application.ElectricityBillCal.executor": "Run",
-    "Application.EmployeeMain.executor": "Run",
-    "Application.EvenOdd.executor": "Run",
-    "Application.Grading.executor": "Run",
-    "Application.Leap.executor": "Run",
-    "Application.LearnLoops.executor": "Run",
-    "Application.Learnfor.executor": "Run",
-    "Application.Learningloops.executor": "Run",
-    "Application.Movie.executor": "Run",
-    "Application.MovieMania.executor": "Run",
-    "Application.Nestedif.executor": "Run",
-    "Application.NumberCheck.executor": "Run",
-    "Application.NumberReversal.executor": "Run",
-    "Application.Nupur.executor": "Run",
-    "Application.PasswordCheckWDW.executor": "Run",
-    "Application.PowerAddition.executor": "Run",
-    "Application.ShopMain.executor": "Run",
-    "Application.Shopmain.executor": "Run",
-    "Application.SimpleCalculator.executor": "Run",
-    "Application.StudentMain.executor": "Run",
-    "Application.Switch.executor": "Run",
-    "Application.Temperature.executor": "Run",
-    "Application.TriangleChecker.executor": "Run",
-    "Application.calculator.executor": "Run",
-    "Application.comparison.executor": "Run",
-    "Application.ifElseifElse.executor": "Run",
-    "Application.student.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/pawan/MyWorkSpace/Java/learningnew/.idea/shelf/shelved/shelved.patch",
-    "onboarding.tips.debug.path": "C:/pawan/MyWorkSpace/Java/learningnew/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BankAccount">
-    <configuration name="BankAccount" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="zulu-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nupurlearning.com.BankAccount" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nupurlearning.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankMenuDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankMenuDoWhile" />
-      <module name="learningnew" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharTypeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharTypeChecker" />
-      <module name="learningnew" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nupurlearning.com.Conversion" />
-      <module name="learningnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nupurlearning.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nupurlearning.com.Movie" />
-      <module name="learningnew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nupurlearning.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Conversion" />
-        <item itemvalue="Application.CharTypeChecker" />
-        <item itemvalue="Application.BankMenuDoWhile" />
-        <item itemvalue="Application.Movie" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0202bf2a-3141-4f5f-94b4-a657a62f0a44" name="Changes" comment="" />
-      <created>1746254286294</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746254286294</updated>
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
-      <created>1748863577977</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1748863577977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,26 +67,6 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="git pull origin master --allow-unrelated-histories " />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
           </value>
         </entry>
       </map>
@@ -232,26 +75,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Arithmetic.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Conversion.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Loops/NumberReversal.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
