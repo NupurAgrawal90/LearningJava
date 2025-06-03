@@ -1,0 +1,1618 @@
+Index: src/Loops/LearnLoops.java
+===================================================================
+diff --git a/src/Loops/LearnLoops.java b/src/Loops/LearnLoops.java
+deleted file mode 100644
+--- a/src/Loops/LearnLoops.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,26 +0,0 @@
+-package Loops;
+-import java.util.Scanner;
+-public class LearnLoops {
+-    public static void main(String[] args) {
+-    Scanner sc= new Scanner(System.in);
+-    boolean vision= false;
+-
+-    while(!vision)
+-    {
+-        System.out.println("are you able to see now?");
+-        vision = sc.nextBoolean();
+-    }
+-        System.out.println("Now that is perfect. I am glad you can see now.");
+-
+-
+-//      int i=1;
+-//      while(i%20 !=0)
+-//      {
+-//          System.out.println(i);
+-//          i++;
+-//      }
+-
+-
+-
+-    }
+-}
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="zulu-17" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,29 +0,0 @@
+-### IntelliJ IDEA ###
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### Eclipse ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+-
+-### Mac OS ###
+-.DS_Store
+\ No newline at end of file
+Index: src/Loops/Learningloops.java
+===================================================================
+diff --git a/src/Loops/Learningloops.java b/src/Loops/Learningloops.java
+deleted file mode 100644
+--- a/src/Loops/Learningloops.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,19 +0,0 @@
+-package Loops;
+-import java.util.Scanner;
+-//table creation
+-public class Learningloops {
+-
+-    public static void main(String[] args) {
+-       Scanner sc= new Scanner(System.in);
+-        System.out.println("Welcome to table generator.Enter the number of your choice");
+-        int num= sc.nextInt();
+-
+-        for(int i=1; i<=10;i++)
+-        {
+-           int result = num * i;
+-            System.out.println(num+"*"+i+"="+result);
+-        }
+-        sc.close();
+-    }}
+-
+-
+Index: src/nupurlearning/com/ShopMain.java
+===================================================================
+diff --git a/src/nupurlearning/com/ShopMain.java b/src/nupurlearning/com/ShopMain.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/ShopMain.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,47 +0,0 @@
+-package nupurlearning.com;
+-
+-public class ShopMain {
+-    public static void main(String[] args)
+-    {
+-        Shop shop1= new Shop();
+-        Shop shop2= new Shop();
+-
+-
+-
+-        shop1.setValue("Jio Mart",101);
+-        shop1.adMessage();
+-
+-      /*  ProductCateogory grocery = new ProductCateogory();
+-        ProductCateogory homecare = new ProductCateogory();
+-
+-        grocery.cateogoryname= "refined oil";
+-        homecare.cateogoryname = "home decor";
+-
+-        ProductDetails p1= new ProductDetails();
+-        ProductDetails p2= new ProductDetails();
+-        ProductDetails p3= new ProductDetails();
+-        ProductDetails p4= new ProductDetails();
+-
+-        p1.productname = "Safola oil";
+-        p1.price= 105;
+-        p1.quantity= 3 ;
+-        p2.productname = "dream catcher";
+-        p3.productname= "sugar";
+-        p3.price= 45;
+-
+-        System.out.println("***SALE***SALE****SALE*****");
+-        System.out.println("Following shop is giving BOGO");
+-        System.out.println("$$$$HURRY UP$$$$$$$");
+-        System.out.println("SHOP NAME: "+shop1.shopName);
+-        System.out.print("with");
+-        System.out.println(" liscense number: "+shop1.shopId);
+-        System.out.print(" is selling items like   "+grocery.cateogoryname+ "  and " +homecare.cateogoryname);
+-        System.out.println("Details of product are");
+-        System.out.println("*product name : "+p1.productname);
+-        System.out.println("               product price is  "+p1.price);
+-        System.out.println("               only "+p1.quantity+" unitsare available ");
+-        System.out.println("HAPPY SHOPPING"); */
+-        
+-    }
+-
+-}
+Index: src/ElectricityBillCal.java
+===================================================================
+diff --git a/src/ElectricityBillCal.java b/src/ElectricityBillCal.java
+deleted file mode 100644
+--- a/src/ElectricityBillCal.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,36 +0,0 @@
+-import java.util.Scanner;
+-public class ElectricityBillCal {
+-    public static void main(String[] args)
+-    {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter the consumed units");
+-        int units = sc.nextInt();
+-        double bill;
+-
+-        if(units>0)
+-        {
+-            if(units<=100) {
+-                bill = 1.5 * units;
+-                //System.out.println("Your total bill is " + bill + " rs");
+-            } else if(units<=300)
+-            {
+-                bill=  2* units;
+-               // System.out.println("Your total bill is " + bill + " rs");
+-            }
+-            else {
+-                bill = 3 * units;
+-            }
+-            System.out.println("Your total bill is " + bill + " rs");
+-
+-
+-            } else {
+-            System.out.println("Enter valid units consumed");
+-        }
+-        sc.close();
+-
+-        }
+-
+-
+-    }
+-
+-
+Index: src/SimpleCalculator.java
+===================================================================
+diff --git a/src/SimpleCalculator.java b/src/SimpleCalculator.java
+deleted file mode 100644
+--- a/src/SimpleCalculator.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,44 +0,0 @@
+-
+-import java.util.Scanner;
+-
+-public class SimpleCalculator {
+-    public static void main(String[] args)
+-    {
+-        Scanner sc= new Scanner(System.in);
+-        System.out.println("Enter first number");
+-        double num1 = sc.nextDouble();
+-        System.out.println("Enter an operator (+,-,*,/):");
+-        char operator = sc.next().charAt(0);
+-        System.out.println("Enter second number");
+-        double num2 = sc.nextDouble();
+-        double result;
+-
+-        switch (operator) {
+-            case '+':
+-                result = num1 + num2;
+-                System.out.println("Result = " + result);
+-                break;
+-            case '-':
+-                result = num1 - num2;
+-                System.out.println("Result = " + result);
+-                break;
+-            case '*':
+-                result = num1 * num2;
+-                System.out.println("Result = " + result);
+-                break;
+-            case '/':
+-                if (num2 == 0) {
+-                    System.out.println("number cannot be divided by zero");
+-                } else {
+-                    result = num1 / num2;
+-                    System.out.println("Result = " + result);
+-                }
+-                break;
+-            default:
+-                System.out.println("Enter a valid operator from (+,-,*,/)");
+-        }
+-        sc.close();
+-        }
+-
+-}
+-
+Index: src/Grading.java
+===================================================================
+diff --git a/src/Grading.java b/src/Grading.java
+deleted file mode 100644
+--- a/src/Grading.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,48 +0,0 @@
+-import java.sql.SQLOutput;
+-import java.util.Scanner;
+-
+-public class Grading
+-{
+-    public static void main(String[] args)
+-    {
+-        Scanner grade = new Scanner(System.in);
+-        System.out.println("Enter your name");
+-        String name = grade.nextLine();
+-        System.out.println("hi "+name);
+-        System.out.println("Enter your marks");
+-      Float marks = grade.nextFloat();
+-
+-      if (marks<0 || marks>100)
+-      {
+-          System.out.println("Enter marks between 0 and 100");
+-      }
+-      else if (marks<35)
+-        {
+-            System.out.println("Sorry , you have failed the exams ");
+-        }
+-        else if(marks>=35 && marks<60 )
+-        {
+-            System.out.println("your grade is C");
+-        }
+-        else if (marks>=60 && marks<70)
+-            {
+-                System.out.println("your grade is B");
+-            }
+-            else if(marks>=70 && marks<90)
+-            {
+-                System.out.println("your grade is A");
+-            }
+-            else if( marks>=90 && marks<100)
+-            {
+-                System.out.println("congratulations!! you have scored an A+");
+-            }
+-            else
+-            {
+-                    System.out.println("you have scored centum, congratulations");
+-                }
+-
+-        }
+-
+-    }
+-
+-
+Index: src/ConditionalOperator.java
+===================================================================
+diff --git a/src/ConditionalOperator.java b/src/ConditionalOperator.java
+deleted file mode 100644
+--- a/src/ConditionalOperator.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,43 +0,0 @@
+-import java.util.Scanner;
+-
+-public class ConditionalOperator {
+-
+-
+-    public static void main(String[] args)
+-    {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter the time in 24 hour format");
+-        float time = sc.nextFloat();
+-        if (time>=0 && time<=24)
+-        {
+-            if (time>= 10 && time <=20)
+-            {
+-                System.out.println("office is open");
+-            }
+-            else
+-                System.out.println("office is closed");
+-        }
+-        else
+-            System.out.println("Enter valid time");
+-
+-
+-
+-//        if( time<0  ||time>24 )
+-
+-//        {
+-//            System.out.println("INVALID TIME ");
+-//        }
+-//        else if(time>=11 && time<=20)
+-//        {
+-//            System.out.println("office is open");
+-//        }
+-//        else
+-//        {
+-//            System.out.println("office is CLOSED");
+-//        }
+-
+-
+-
+-
+-    }
+-}
+Index: src/com/Arithmetic.java
+===================================================================
+diff --git a/src/com/Arithmetic.java b/src/com/Arithmetic.java
+deleted file mode 100644
+--- a/src/com/Arithmetic.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,57 +0,0 @@
+-package com;
+-import java.util.Scanner;
+-
+-public class Arithmetic {
+-    public int add(int a ,int b,int c)
+-    {
+-        int d;
+-        d= a+b;
+-        int e ;
+-        e = d+c;
+-        System.out.println("result of sum is "+e);
+-        return e;
+-    }
+-    public int sub(int e ,int f)
+-    {
+-        int g;
+-        g= e- f;
+-        System.out.println("result of sub is "+g);
+-        return g;
+-    }
+-    public int mult(int g , int h )
+-    {
+-        int i ;
+-        i = g*h;
+-        System.out.println("result of mult is "+i);
+-        return i;
+-    }
+-    public float div(int i , int j) {
+-        float k;
+-        k = (float) i / j;
+-        System.out.println("result of div is " + k);
+-        return k;
+-    }
+-    public static void main(String[] args) {
+-        Arithmetic A1 = new Arithmetic();
+-       A1.div(A1.mult(A1.sub( A1.add(10, 2, 2), 2), 2), 2);
+-
+-//             Scanner sc = new Scanner(System.in);
+-//
+-//
+-//
+-//
+-//             System.out.println("Enter the first number");
+-//             int firstNumber= sc.nextInt();
+-//             System.out.println("Enter the second number");
+-//             int secondNumber= sc.nextInt();
+-//             int result = firstNumber + secondNumber;
+-//             System.out.println("Sum of these numbers = "+result);
+-//
+-
+-//             System.out.println("Enter a number");
+-//             int w = sc.nextInt();
+-//             int z = w*w;
+-//             System.out.println("Square of the number " +w+" is "+z);
+-    }
+-
+-}
+Index: src/ifElseifElse.java
+===================================================================
+diff --git a/src/ifElseifElse.java b/src/ifElseifElse.java
+deleted file mode 100644
+--- a/src/ifElseifElse.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,38 +0,0 @@
+-import java.util.Scanner;
+-
+-public class ifElseifElse
+-{
+-        public static void main(String[] args)
+-    {
+-
+-    Scanner sc= new Scanner(System.in);
+-
+-        System.out.println("enter your name");
+-        String name= sc.next();
+-        System.out.println("hi "+name);
+-
+-        System.out.println("enter your age");
+-        Float age = sc.nextFloat();
+-        if (age>0 && age<=3)
+-        {
+-            System.out.println("you are a toddler");
+-
+-    } else if(age>3 && age<=5)
+-        {
+-            System.out.println("you are a preschooler");
+-        }
+-
+-    else if (age>5 && age<=12)
+-    {
+-        System.out.println("you are a school going child");
+-    }
+-    else if (age>12 && age<18) {
+-            System.out.println("you are a teenager");
+-        }
+-    else
+-    {
+-        System.out.println("congratulations!! you are an adult now and you can cast vote");
+-    }
+-
+-    }
+-}
+Index: src/CharTypeChecker.java
+===================================================================
+diff --git a/src/CharTypeChecker.java b/src/CharTypeChecker.java
+deleted file mode 100644
+--- a/src/CharTypeChecker.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,20 +0,0 @@
+-import java.util.Scanner;
+-public class CharTypeChecker {
+-
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter a Character/Digit/Special character");
+-        char ch = sc.next().charAt(0);
+-
+-        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+-            System.out.println(ch + " is a Character");
+-        } else if (ch >= '0' && ch <= '9') {
+-            System.out.println(ch + " is a Digit");
+-        } else {
+-            System.out.println(ch + " is a Special character");
+-        }
+-        sc.close();
+-
+-    }
+-}
+-
+Index: src/nupurlearning/com/ProductCateogory.java
+===================================================================
+diff --git a/src/nupurlearning/com/ProductCateogory.java b/src/nupurlearning/com/ProductCateogory.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/ProductCateogory.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,11 +0,0 @@
+-package nupurlearning.com;
+-
+-public class ProductCateogory {
+-
+-    String cateogoryname;
+-
+-    ;
+-
+-
+-
+-}
+Index: src/nupurlearning/com/ProductDetails.java
+===================================================================
+diff --git a/src/nupurlearning/com/ProductDetails.java b/src/nupurlearning/com/ProductDetails.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/ProductDetails.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,7 +0,0 @@
+-package nupurlearning.com;
+-
+-public class ProductDetails {
+-    String productname;
+-    double price;
+-    int quantity;
+-}
+Index: src/BankMenuDoWhile.java
+===================================================================
+diff --git a/src/BankMenuDoWhile.java b/src/BankMenuDoWhile.java
+deleted file mode 100644
+--- a/src/BankMenuDoWhile.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,60 +0,0 @@
+-import java.util.Scanner;
+-
+-public class BankMenuDoWhile {
+-
+-    public static void main(String[] args)
+-    { Scanner sc = new Scanner (System.in);
+-        int choice,deposit;
+-         int balance= 1000;
+-
+-         do {
+-             System.out.println("Welcome to ABC bank Online service");
+-             System.out.println("Let us know what are you here for");
+-             System.out.println("choose your requirement from the below menu");
+-             System.out.println("1. Check account balance");
+-             System.out.println("2. Cash Deposit");
+-             System.out.println("3. Cash Withdrawal");
+-             System.out.println("4. Exit");
+-             choice = sc.nextInt();
+-
+-
+-             switch (choice) {
+-                 case 1:
+-                     System.out.println("your current balance is  "+balance);
+-                     break;
+-                 case 2:
+-                     System.out.println("Enter the amount you want to deposit");
+-                     deposit = sc.nextInt();
+-                     balance +=deposit;
+-                     System.out.println("your updated balance is "+balance);
+-                     break;
+-                 case 3:
+-                     System.out.println("Enter the amount you want to withdraw");
+-                     int amount = sc.nextInt();
+-                     if(amount<=balance)
+-                     {
+-                         balance = balance - amount;
+-
+-                     System.out.println("your updated balance is "+balance);
+-                     }
+-                     else
+-                     {
+-                         System.out.println("insufficient balance");
+-                     }
+-                     break;
+-                 default:
+-                     System.out.println("Invalid choice");
+-             }
+-
+-
+-
+-
+-
+-         } while (choice!=4);
+-
+-
+-
+-    }
+-
+-
+-}
+\ No newline at end of file
+Index: src/nupurlearning/com/Nupur.java
+===================================================================
+diff --git a/src/nupurlearning/com/Nupur.java b/src/nupurlearning/com/Nupur.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/Nupur.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,39 +0,0 @@
+-import java.util.Scanner;
+-
+-
+-public class Nupur {
+-
+-    public Nupur() {
+-
+-        System.out.println("default");
+-    }
+-    public Nupur(int a , int b)
+-    {
+-
+-        int sum = a+b;
+-        System.out.println("sum of the numbers is "+ sum);
+-
+-    }
+-    public Nupur( String name)
+-    {
+-
+-        System.out.println("Hi " +name);
+-    }
+-
+-    public static void main(String[] args)
+-    {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter first number ");
+-       int a = sc.nextInt();
+-        System.out.println("Enter next number ");
+-       int b = sc.nextInt();
+-        Nupur obj1 = new Nupur(a,b);
+-
+-        System.out.println("Enter Username");
+-        String name = sc.next();
+-
+-        Nupur ob = new Nupur(name);
+-    }
+-
+-
+-}
+\ No newline at end of file
+Index: src/com/calculator.java
+===================================================================
+diff --git a/src/com/calculator.java b/src/com/calculator.java
+deleted file mode 100644
+--- a/src/com/calculator.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,33 +0,0 @@
+-package com;
+-
+-public class calculator {
+-
+-    public int sum(int a, int b )
+-    {
+-        int c;
+-        c= a+b;
+-        System.out.println("the result of sum is "+c);
+-        return c;
+-    }
+-    public int sub(int d ,int e)
+-    {
+-        int f;
+-        f= d-e;
+-        System.out.println("the result of difference is "+f);
+-        return f ;
+-    }
+-    public int mult(int c, int f)
+-    {
+-        int g;
+-        g= c*f;
+-        System.out.println("The final output of the expression is "+g);
+-        return g;
+-    }
+-    public static void main(String[] args)
+-    {
+-        calculator c1 = new calculator();
+-        int sumresult=c1.sum(20,13);
+-        int subresult= c1.sub(10,9);
+-        c1.mult(sumresult,subresult);
+-    }
+-}
+Index: src/Main.java
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+deleted file mode 100644
+--- a/src/Main.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,4 +0,0 @@
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-
+-
+Index: src/EvenOdd.java
+===================================================================
+diff --git a/src/EvenOdd.java b/src/EvenOdd.java
+deleted file mode 100644
+--- a/src/EvenOdd.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,49 +0,0 @@
+-import java.util.Scanner;
+-
+-public class EvenOdd {
+-
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter an Integer");
+-        int num = sc.nextInt();
+-        String type = (num%2 ==0)? "even": "odd";
+-
+-        //if else condition to declare positive negative
+-
+-        if(num>0) {
+-            System.out.println(num + " is a positive " + type+" number");
+-        }
+-        else if(num<0) {
+-            System.out.println(num+ " is a negative "+ type+" number");
+-        }else {
+-            System.out.println(num + " is neither negative nor positive");
+-        }
+-
+-
+-
+-
+-//        if (num > 0) {
+-//            if (num % 2 == 0) {
+-//                System.out.println(num + " is a positive even number");
+-//            } else {
+-//                System.out.println(num + "is a positive odd number");
+-//            }
+-//        } else if (num < 0) {
+-//            if (num % 2 == 0) {
+-//                System.out.println(num + " is a negative even number");
+-//            } else {
+-//            System.out.println(num + " is a negative odd number");
+-//        }
+-//           } else {
+-//                System.out.println(num+ " is neither negative nor positive , it is zero");
+-//        }
+-        sc.close();
+-
+-
+-
+-    }
+-
+-}
+-
+-
+-
+Index: src/NumberCheck.java
+===================================================================
+diff --git a/src/NumberCheck.java b/src/NumberCheck.java
+deleted file mode 100644
+--- a/src/NumberCheck.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,23 +0,0 @@
+-import java.util.Scanner;
+-
+-public class NumberCheck {
+-    public static void main(String[] args)
+-    {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter a number");
+-        float number = sc.nextFloat();
+-        if(number<0)
+-        {
+-            System.out.println(number+ " is a negative number");
+-    }
+-        else if (number>0) {
+-            System.out.println(number + " is a positive number");
+-        }
+-        else {
+-            System.out.println(number+ " is neither positive nor negative");
+-        }
+-        sc.close();
+-        }
+-
+-    }
+-
+Index: src/TriangleChecker.java
+===================================================================
+diff --git a/src/TriangleChecker.java b/src/TriangleChecker.java
+deleted file mode 100644
+--- a/src/TriangleChecker.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,34 +0,0 @@
+-import java.util.Scanner;
+-public class TriangleChecker {
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter the measure of angle 1 of triangle:");
+-        float angle1 = sc.nextFloat();
+-        System.out.println("Enter the measure of angle 2 of triangle:");
+-        float angle2 = sc.nextFloat();
+-        System.out.println("Enter the measure of angle 3 of triangle:");
+-        float angle3 = sc.nextFloat();
+-        float sum = angle1 + angle2 + angle3;
+-
+-        if (angle1 > 0 && angle2 > 0 && angle3 > 0 && sum == 180) {
+-            System.out.println("This is a valid triangle");
+-
+-            if (angle1 == angle2 && angle2 == angle3) {
+-                System.out.println("It is an equilateral triangle");
+-            } else if ((angle1 == angle2) || (angle2 == angle3) || (angle1 == angle3)) {
+-                System.out.println("It is an isosceles triangle");
+-            } else {
+-                System.out.println("It is a scalene triangle");
+-            }
+-        }
+-            else {
+-            System.out.println("This is an invalid triangle");
+-        }
+-        sc.close();
+-        }
+-
+-
+-    }
+-
+-
+-
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: src/Switch.java
+===================================================================
+diff --git a/src/Switch.java b/src/Switch.java
+deleted file mode 100644
+--- a/src/Switch.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,33 +0,0 @@
+-import java.util.Locale;
+-import java.util.Scanner;
+-
+-public class Switch {
+-    public static void main(String[] args)
+-    {
+-        Scanner scan = new Scanner(System.in);
+-        System.out.println("enter the day");
+-        String day= scan.nextLine().toLowerCase();
+-        switch (day)
+-        {
+-            case "friday":
+-                System.out.println("relax! it's almost weekend");
+-                break;
+-            case "saturday":
+-            case "sunday":
+-                System.out.println("Hurray!!!! it's THE WEEKEND ");
+-                break;
+-            case "monday":
+-            case "tuesday":
+-            case "wednesday":
+-            case "thursday":
+-                System.out.println("its midweek");
+-                break;
+-            default:
+-                System.out.println("Enter valid name of the day");
+-        }
+-
+-
+-
+-
+-    }
+-}
+Index: .idea/uiDesigner.xml
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/.idea/uiDesigner.xml	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: src/Nestedif.java
+===================================================================
+diff --git a/src/Nestedif.java b/src/Nestedif.java
+deleted file mode 100644
+--- a/src/Nestedif.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,31 +0,0 @@
+-
+-import java.util.Scanner;
+-
+-public class Nestedif
+-{
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Welcome to YOUR bank");
+-        System.out.println("Enter your name");
+-        String name = sc.nextLine();
+-        System.out.println("Enter your age");
+-        int age = sc.nextInt();
+-        System.out.println("Enter your income ");
+-        float income = sc.nextFloat();
+-
+-        if (age >= 18 && age<=60 ) {
+-            if (income >30000) {
+-                System.out.println("you are eligible for loan");
+-            } else {
+-                System.out.println("you are not eligible for loan due to low income");
+-            }
+-        }
+-    else
+-        {
+-        System.out.println("you are not eligible for loan due to age constraint");
+-    }
+-    sc.close();
+-
+-    }
+-
+-}
+Index: src/com/Conversion.java
+===================================================================
+diff --git a/src/com/Conversion.java b/src/com/Conversion.java
+deleted file mode 100644
+--- a/src/com/Conversion.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,18 +0,0 @@
+-package com;
+-
+-public class Conversion {
+-    public static void main(String[] args) {
+-        int a= 34;//smaller than float
+-        float b;//bigger than int
+-        b= a;
+-        float c= 12.5f;// need to put f
+-        int d = (int) c;//explicit conversion
+-        //smaller basket cannot hold bigger basket
+-
+-        System.out.println("value of a is "+a);
+-        System.out.println("value of b is "+b);
+-        System.out.println("value of d is "+d);
+-        System.out.println("value of c is "+c);
+-        //implicit conversion as a bigger basket can hold a smaller basket
+-    }
+-}
+Index: src/Loops/NumberReversal.java
+===================================================================
+diff --git a/src/Loops/NumberReversal.java b/src/Loops/NumberReversal.java
+deleted file mode 100644
+--- a/src/Loops/NumberReversal.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,26 +0,0 @@
+-package Loops;
+-import java.util.Scanner;
+-
+-public class NumberReversal {
+-
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-
+-        int number;
+-        int reverse = 0;
+-        System.out.println("Enter a number ");
+-        number = sc.nextInt();
+-        int original = number;
+-
+-        for (; number != 0; number = number / 10) {
+-            int digit = number % 10;
+-            reverse = (reverse * 10) + digit;
+-
+-        }
+-        System.out.println("Reversed number: " + reverse);
+-        if (original == reverse) {
+-            System.out.println("its a palindrome");
+-        }
+-    }
+-}
+-
+Index: src/Loops/PowerAddition.java
+===================================================================
+diff --git a/src/Loops/PowerAddition.java b/src/Loops/PowerAddition.java
+deleted file mode 100644
+--- a/src/Loops/PowerAddition.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,19 +0,0 @@
+-package Loops;
+-import java.util.Scanner;
+-public class PowerAddition {
+-
+-    public static void main(String[] args) {
+-        Scanner sc= new Scanner(System.in);
+-
+-        System.out.println("enter the range 'n' where to want to stop");
+-        int n = sc.nextInt();
+-        int a=1;
+-
+-
+-        for (int i=1;i<=n;i++)
+-        {
+-            System.out.println(a+" + "+a+" = "+(a+a));
+-            a= a + a;
+-        }
+-    }
+-}
+Index: src/nupurlearning/com/Shop.java
+===================================================================
+diff --git a/src/nupurlearning/com/Shop.java b/src/nupurlearning/com/Shop.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/Shop.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,21 +0,0 @@
+-package nupurlearning.com;
+-
+-public class Shop
+-{
+-    String shopName;
+-    int shopId;
+-
+-    public void setValue(String shopNameArg,int shopIdArg)
+-    {
+-        shopName=shopNameArg;
+-        shopId= shopIdArg;
+-
+-    }
+-
+-    public void adMessage()
+-    {
+-        System.out.println("sale starts at  "+shopName+" today");
+-    }
+-
+-
+-}
+Index: learningnew.iml
+===================================================================
+diff --git a/learningnew.iml b/learningnew.iml
+deleted file mode 100644
+--- a/learningnew.iml	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: src/PasswordCheckWDW.java
+===================================================================
+diff --git a/src/PasswordCheckWDW.java b/src/PasswordCheckWDW.java
+deleted file mode 100644
+--- a/src/PasswordCheckWDW.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,19 +0,0 @@
+-import java.util.Scanner;
+-public class PasswordCheckWDW {
+-
+-        public static void main(String[] args) {
+-            Scanner sc = new Scanner(System.in);
+-           // String password = ""; // 🔹 Initialize before the loop
+-            String password;
+-            do{
+-                System.out.println( "Enter your password");
+-                password = sc.nextLine();
+-            }while (!password.equals("admin123")) ;
+-
+-
+-
+-
+-            System.out.println("Access Granted");
+-        }
+-    }
+-
+Index: src/com/StudentMain.java
+===================================================================
+diff --git a/src/com/StudentMain.java b/src/com/StudentMain.java
+deleted file mode 100644
+--- a/src/com/StudentMain.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,18 +0,0 @@
+-package com;
+-
+-public class StudentMain {
+-
+-        public static void main(String[] args)
+-        {
+-        Student s1 = new Student();
+-        Student s2 = new Student();
+-        Student s3 = new Student();
+-
+-        s1.setValue("Ritu","Science",9,10);
+-        s2.setValue("Kavita","Hindi",2,10);
+-        s3.setValue("vinod","Math",11,12);
+-        s1.display();
+-        s2.display();
+-        s3.display();
+-    }
+-}
+Index: src/nupurlearning/com/MovieMania.java
+===================================================================
+diff --git a/src/nupurlearning/com/MovieMania.java b/src/nupurlearning/com/MovieMania.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/MovieMania.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,62 +0,0 @@
+-package nupurlearning.com;
+-
+-import java.sql.SQLOutput;
+-import java.util.Scanner;
+-
+-public class MovieMania {
+-
+-    String movieName;
+-    String movieGenre;
+-    float movieRating;
+-    double profit;
+-    double budget;
+-
+-    public MovieMania(String mName,String mGenre, float mRating)
+-    {
+-        movieName = mName;
+-        movieGenre = mGenre;
+-        movieRating = mRating;
+-
+-    }
+-    public MovieMania(String mName,int mBudget)
+-    {
+-        movieName = mName;
+-        budget = mBudget;
+-
+-    }
+-
+-
+-
+-
+-    public void showDetails()
+-    {
+-        System.out.println("movie details");
+-        System.out.println("Name of the movie: "+movieName);
+-        System.out.println("Genre: "+movieGenre);
+-        System.out.println("Public Rating: "+movieRating);
+-        System.out.println("Movie Budget: "+budget);
+-    }
+-    public static void main(String[] args)
+-    {
+-        Scanner sc= new Scanner(System.in);
+-
+-        System.out.println("Enter the movie name");
+-        String mName = sc.next();
+-        System.out.println("Enter the Genre");
+-        String mGenre = sc.next();
+-        System.out.println("Enter the Rating");
+-        float mRating = sc.nextFloat();
+-        System.out.println("Enter Budget");
+-        int mBudget = sc.nextInt();
+-        MovieMania m1 = new MovieMania(mName,mGenre,mRating);
+-        System.out.println("");
+-        MovieMania m2 = new MovieMania(mName,mBudget);
+-        m1.showDetails();
+-        System.out.println("");
+-        m2.showDetails();
+-
+-
+-
+-
+-    }
+-}
+Index: src/nupurlearning/com/BankAccount.java
+===================================================================
+diff --git a/src/nupurlearning/com/BankAccount.java b/src/nupurlearning/com/BankAccount.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/BankAccount.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,61 +0,0 @@
+-package nupurlearning.com;
+-
+-import java.sql.SQLOutput;
+-
+-public class BankAccount {
+-
+-    String holderName;
+-    int acntNum;
+-    double acntBal;
+-
+-//    public void setDetails(String name,int accNo, double balance)
+-//    {
+-//        holderName = name;
+-//        acntNum = accNo;
+-//        acntBal = balance;
+-//    }
+-//
+-//    public void showDetails()
+-//    {
+-//        System.out.println("Account Details");
+-//        System.out.println("Name: "+holderName);
+-//        System.out.println("Account Number: "+acntNum);
+-//        System.out.println("Bank Balance: Rs "+acntBal);
+-//
+-//    }
+-//
+-//    public static void main(String[] args)
+-//    {
+-//        BankAccount a1 = new BankAccount();
+-//        BankAccount a2 = new BankAccount();
+-//
+-//        a1.setDetails("Nupur",12345,890980);
+-//        a2.setDetails("Pawan",123456,9999999);
+-//
+-//        a1.showDetails();
+-//        a2.showDetails();
+-
+-
+-    public BankAccount(String name,int accNo, double balance)
+-    {
+-        holderName = name;
+-        acntNum = accNo;
+-        acntBal = balance;
+-    }
+-
+-    public void showDetails() {
+-        System.out.println("Account Details");
+-        System.out.println("Name: " + holderName);
+-        System.out.println("Account Number: " + acntNum);
+-        System.out.println("Bank Balance: Rs " + acntBal);
+-    }
+-
+-    public static void main(String[] args)
+-    {
+-        BankAccount a1 = new BankAccount("pawan",1,12345);
+-        a1.showDetails();
+-
+-
+-    }
+-
+-}
+Index: src/comparison.java
+===================================================================
+diff --git a/src/comparison.java b/src/comparison.java
+deleted file mode 100644
+--- a/src/comparison.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,31 +0,0 @@
+-import java.sql.SQLOutput;
+-import  java.util.Scanner;
+-public class comparison {
+-
+-    public static void main(String[] args) {
+-        Scanner compare = new Scanner(System.in);
+-        System.out.println("Enter first number");
+-        int a = compare.nextInt();
+-        System.out.println("Enter second number");
+-        int b = compare.nextInt();
+-        System.out.println("Enter third number");
+-        int c = compare.nextInt();
+-
+-//        if (a > b) {
+-//            if (a > c) {
+-//                System.out.println(a + " is the greatest number");
+-//            } else {
+-//                System.out.println(c + " is the greatest number");
+-//            }
+-//        } else if (b > c) {
+-//            System.out.println(b + " is the largest number");
+-//        } else {
+-//            System.out.println(c + " is the largest number");
+-//        }
+-//  }
+-
+-       int max = (a > b) ? ((a > c) ? a : c) :( (b > c) ? b : c);
+-        System.out.println("maximum of all the numbers is " + max);
+-    }
+-}
+-
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/learningnew.iml" filepath="$PROJECT_DIR$/learningnew.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: src/Loops/Addnumbers.java
+===================================================================
+diff --git a/src/Loops/Addnumbers.java b/src/Loops/Addnumbers.java
+deleted file mode 100644
+--- a/src/Loops/Addnumbers.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,41 +0,0 @@
+-package Loops;
+-import java.util.Scanner;
+-
+-public class Addnumbers {
+-    public static void main(String[] args) {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("enter the value of n:");
+-        int range = sc.nextInt();
+-
+-        //print squares of n numbers
+-        for (int i = 1; i <= range; i++) {
+-            System.out.println("square of "+i+ " is = "+(i * i));
+-        }
+-//        int sum = 0;
+-//    //print all even numbers
+-//        System.out.println("list of all even numbers ");
+-//        for(int i=1; i<=range;i++)
+-//        {
+-//            System.out.println(2*i);
+-//        }
+-//    }
+-        //sum of n even numbers
+-//        for(int i =1;i<=range;i++)
+-//        { sum= sum+2*i;
+-//        }
+-//        System.out.println("sum of n even numbers is "+sum);
+-//    }
+-
+-
+-//sum of n natural numbers
+-//        for (int i = 1; i <= range; i++) {
+-//
+-//            System.out.println(i+" + "+sum+ " = "+(i+sum) );
+-//            sum = i + sum;
+-//        }
+-//            System.out.println("Sum of first "+range+ " natural numbers is = "+sum);
+-//        }
+-    }
+-}
+-
+-
+Index: src/com/Student.java
+===================================================================
+diff --git a/src/com/Student.java b/src/com/Student.java
+deleted file mode 100644
+--- a/src/com/Student.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,20 +0,0 @@
+-package com;
+-
+-public class Student {
+-    String studName,stuDept;
+-    int rollNumber,age;
+-
+-    public void setValue(String studName, String stuDept, int rollNumber, int age)
+-    {   this.studName = studName;
+-        this.stuDept = stuDept;
+-        this.rollNumber = rollNumber;
+-        this.age = age;
+-
+-    }
+-
+-    public void display()
+-    {
+-        //System.out.println("Student of the year is" +studName);
+-        System.out.println("age of "+studName+" is "+age);
+-    }
+-}
+Index: src/nupurlearning/com/Movie.java
+===================================================================
+diff --git a/src/nupurlearning/com/Movie.java b/src/nupurlearning/com/Movie.java
+deleted file mode 100644
+--- a/src/nupurlearning/com/Movie.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,34 +0,0 @@
+-package nupurlearning.com;
+-
+-public class Movie {
+-    String name;
+-    String genre;
+-    float rating;
+-
+-
+-    public Movie(String movieName, String movieGenre,float movieRating)
+-    {
+-        name = movieName;
+-        genre =movieGenre;
+-        rating = movieRating;
+-
+-
+-    }
+-    public void showDetails()
+-    {
+-        System.out.println("movie details");
+-        System.out.println("Name of the movie: "+name);
+-        System.out.println("Genre: "+genre);
+-        System.out.println("Public Rating: "+rating);
+-    }
+-
+-    public static void main(String[] args)
+-    {
+-        Movie m1 = new Movie("kaal","Horror",4);
+-        Movie m2 = new Movie("Parineeta","Drama",3.5f);
+-
+-        m1.showDetails();
+-        m2.showDetails();
+-    }
+-}
+-
+Index: src/Leap.java
+===================================================================
+diff --git a/src/Leap.java b/src/Leap.java
+deleted file mode 100644
+--- a/src/Leap.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,32 +0,0 @@
+-import java.util.Scanner;
+-
+-public class Leap {
+-    public static void main(String[] args) {
+-        Scanner scan = new Scanner(System.in);
+-        System.out.println("Enter a year to check if it is  a leap year");
+-        int year = scan.nextInt();
+-        if (year > 0) {
+-            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+-                System.out.println(year + " is a leap year");
+-            } else {
+-                System.out.println(year + " is not a leap year");
+-            }
+-        }
+-        else
+-        {
+-            System.out.println("enter a valid year(positive integer).");
+-
+-        }
+-        if (year % 100 == 0) {
+-            System.out.println(year + " is a century year");
+-        }
+-        scan.close();
+-    }
+-    }
+-
+-
+-
+-
+-
+-
+-
+Index: src/Temperature.java
+===================================================================
+diff --git a/src/Temperature.java b/src/Temperature.java
+deleted file mode 100644
+--- a/src/Temperature.java	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
++++ /dev/null	(revision 6a9ed38756be3ebaaabcd1c732685c8e3ffa8674)
+@@ -1,36 +0,0 @@
+-
+-import java.util.Scanner;
+-public class Temperature {
+-
+-    public static void main(String[] args)
+-    {
+-        Scanner sc = new Scanner(System.in);
+-        System.out.println("Enter the temperature in your area in Celsius");
+-        float temp = sc.nextFloat();
+-
+-       if(temp>0) {
+-           if (temp < 15) {
+-               System.out.println("It is cold");
+-
+-           } else if (temp <= 30) {
+-               System.out.println("It is warm");
+-
+-           } else if (temp <44) {
+-               System.out.println("It is hot");
+-           }
+-           else
+-           {
+-               System.out.println("It is boiling");
+-           }
+-       }
+-       else
+-           {
+-               System.out.println("It is freezing");
+-           }
+-
+-
+-       sc.close();
+-
+-
+-    }
+-}
